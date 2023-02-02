@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f32fcd4286.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <section class="container">
+        <div class="main-body">
+            <div class="display">
+                <div class="div2"></div>
+                <p></p>
+                <div class="view">
+                    <input id="calculatorScreen" type="textarea">
+                </div>
+            </div>
+            <div class="keys">
+                <input type="button" id="back" onclick="backSpace()" value="⌫" class="key one">
+                <input type="button" id="pra-l" onclick="" value="(" class="key one">
+                <input type="button" id="para-r" onclick="" value=")" class="key one">
+                <input type="button" id="exp" onclick="" value="exp" class="key orange">
+                <input type="button" id="clear" onclick="allClear()" value="AC" class="key one">
+                <input type="button" id="pAndM" onclick="" value="+/-" class="key one">
+                <input type="button" id="mod" onclick="display('%')" value="%" class="key one">
+                <input type="button" id="divide" onclick="display('/')" value="&#247" class="key orange">
+                <input type="button" id="seven" onclick="display('7')" value="7" class="key">
+                <input type="button" id="eight" onclick="display('8')" value="8" class="key">
+                <input type="button" id="nine" onclick="display('9')" value="9" class="key">
+                <input type="button" id="multi" onclick="display('*')" value="&#215" class="key orange">
+                <input type="button" id="four" onclick="display('4')" value="4" class="key">
+                <input type="button" id="five" onclick="display('5')" value="5" class="key">
+                <input type="button" id="six" onclick="display('6')" value="6" class="key">
+                <input type="button" id="minus" onclick="display('-')" value="&#8722" class="key orange">
+                <input type="button" id="one" onclick="display('1')" value="1" class="key">
+                <input type="button" id="two" onclick="display('2')" value="2" class="key">
+                <input type="button" id="three" onclick="display('3')" value="3" class="key">
+                <input type="button" id="plus" onclick="display('+')" value="+" class="key orange">
+                <input type="button" id="zero" onclick="display('0')" value="0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; " class="key2 zero">
+                <input type="button" id="dot" onclick="display('.')" value="." class="key">
+                <input type="button" id="equal" onclick="evaluat()" value="=" class="key orange">
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
