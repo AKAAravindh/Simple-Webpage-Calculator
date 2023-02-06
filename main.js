@@ -7,13 +7,11 @@ function display(content) {
 }
 
 function allClear() {
-    calculatorScreen.value = ""
+    calculatorScreen.value = "";
 }
 
-function evaluat() {
-    calculatorScreen.value = eval
-    (calculatorScreen)
-
+function valuate() {
+    calculatorScreen.value = eval(calculatorScreen.value)
 }
 
 function backSpace() {
