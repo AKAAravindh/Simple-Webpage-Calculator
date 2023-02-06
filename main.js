@@ -7,7 +7,7 @@ function display(content) {
 }
 
 function allClear() {
-    calculatorScreen.value = "";
+    calculatorScreen.value = ""
 }
 
 function valuate() {
