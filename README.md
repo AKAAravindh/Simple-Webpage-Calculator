@@ -1,5 +1,5 @@
 # Simple-Webpage-Calculator
-<h1>Click to view this project </h1>
-<h3><a href="https://akaaravindh.github.io/Simple-Webpage-Calculator/" target="_blank">https://akaaravindh.github.io/Simple-Webpage-Calculator/</a></h3>
+<h4>Click to view this project </h4>
+<h4><a href="https://akaaravindh.github.io/Simple-Webpage-Calculator/" target="_blank">https://akaaravindh.github.io/Simple-Webpage-Calculator/</a></h4>
 
 <p>Not completed...!</p>
